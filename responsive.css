@@ -11,18 +11,23 @@
     }
 
     .top-menubar{
-        background-color: #FF900E;
         gap: 5px;
         flex-direction: column;
         
+    }
+    .company-name{
+        margin-right: 100px;
     }
     .manu a{
         margin-left: 5px;
         
     }
+    .brand-title{
+        margin-top: 60px;
+    }
     .bannar img{
-        width: 200px;
-        height: 100px;
+        width: 400px;
+        height: 200px;
     }
     .main-title{
         font-size: 16px;
@@ -53,14 +58,20 @@
     }
     .description a{
         color: #131313;
-        font-size: 14px;
+        font-size: 16px;
     }
     .pragraph-title{
-        font-size: 14px;
+        font-size: 16px;
 
     }
-    .pragraph-title-2{
-        font-size: 14px;
+    .pragraph-titles{
+        font-size: 16px;
+    }
+    .pragraph-titlee{
+        font-size: 16px;
+    }
+    .pragraph{
+        font-size: 10px;
     }
     .btn{
         width: 60px;
@@ -74,9 +85,9 @@
         border: 0px;
     }
     .picture img{
-        width: 150px;
-        height: 80px;
-        margin: 2px 2px;
+        width: 300px;
+        height: 200px;
+        margin: 152px 2px 2px 100px;
 
     }
     .main-second-section{
@@ -93,13 +104,14 @@
         color: #FFFFFF;
         border: 0;
         border-radius: 5px;
-        transform: translate(-260%, -60%);
+        transform: translate(170%, -130%);
        -ms-transform: translate(-10%, -10%);
     
     }
     .third-section{
         margin: 2px 2px 2px 70px;
         font-size: 16px;
+
     }
     .third-section h2{
         font-size: 16px;
@@ -114,10 +126,19 @@
 
     }
     .sub-title{
-        font-size: 14px;
+        font-size: 16px;
+        
+    }
+    .Sponspors{
+        margin-right: 200px;
     }
     .Sponspors h1{
         font-size: 16px;
+       
+    }
+    .Sponspors p{
+        font-size: 10px;
+        
     }
     .icon{
         flex-direction: column;
@@ -141,7 +162,17 @@
         display: none;
     }
     .address h3{
-        font-size: 16px;
+        font-size: 14px;
+    }
+    .address p{
+        font-size: 10px;
+    }
+    .copyright{
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        color: #727272;
+        font-size: 10px;
     }
   
 }
