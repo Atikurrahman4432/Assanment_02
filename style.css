@@ -92,10 +92,6 @@ body{
     margin-top: 60px;
     margin-left: 73px;
 }
-hr{
-    color: #FF900E;
-    display: flex;
-}
 .pragraph-title{
     color: #727272;
     font-size: 45px;
@@ -105,7 +101,7 @@ hr{
     color: #131313;
     font-size: 45px;
 }
-.pragraph-title-2{
+.pragraph-titles {
     color: #FF900E;
     font-size: 45px;
 }
@@ -230,10 +226,22 @@ article{
 .footer-icon a{
     text-decoration: none;
     color: black;
+    font-size: 15px;
 }
 .follow{
     margin-left: 200px;
 }
+
+/*copyright section start*/
+.copyright{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #727272;
+    font-size: 15px;
+}
+
+/*copyright section end*/
 
 /*footer sector end*/
 
